@@ -72,4 +72,4 @@ class BaseModel:
             elif key == "updated_at":
                 a_dict[key] = self.updated_at.isoformat()
         a_dict["__class__"] = type(self).__name__
-        return 
+        return a_dict
